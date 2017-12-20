@@ -10,9 +10,9 @@ end
 
 def current_player(board)
   if  % 2 == 1
-    return "O"
+    "O"
     if count % 2 == 0
-      return "X"
+      "X"
     end
   end
 end
