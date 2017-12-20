@@ -2,7 +2,7 @@ def turn_count(board)
   turn_count = 1
   board.each do |turn|
     if turn != " " || ""
-      turn_count +=1
+      turn_count += 1
     end
   end
 end
