@@ -10,9 +10,10 @@ end
 
 def current_player(board)
   if  % 2 == 1
-    puts "O"
+    player = "O"
     if count % 2 == 0
-      puts "X"
+      player = "X"
     end
   end
+  player
 end
