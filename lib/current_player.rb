@@ -10,9 +10,9 @@ end
 
 def current_player
   if count % 2 == 1
-    puts "O"
+    "O"
     if count % 2 == 0
-      puts "X"
+    "X"
     end
   end
 end
