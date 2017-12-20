@@ -9,7 +9,7 @@ def turn_count(board)
 end
 
 def current_player(board)
-  if  % 2 == 1
+  if count % 2 == 1
     player = "O"
     if count % 2 == 0
       player = "X"
